@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	background-image:url(image/banne1r.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img{
+	width: 100%;
+}
+/*header start*/
+.header-top{
+}
+.container1{
+	width: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+	margin-top: 20px;
+}
+.logo h1{
+	margin: 0;
+}
+.logo span{
+	color: #ff3946;}
+.menu{
+	width: 68%;
+	float: left;
+}
+.menu ul{
+list-style: none;
+margin-top: 30px;
+float: right;
+}
+.menu ul li{
+float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 30px;
+	color: #fff;
+	padding: 10px 0px;
+	transition: 0.3s;
+	position: relative;
+}
+
+.menu ul li a:before{
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #fff;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+	transition: 0.5s ease;
+
+}
+.menu ul li a:hover::before {
+    left: 0%;
+    right: 0%;
+}
+.menu ul li a:hover {
+	color: #F9C200;
+	left: 0;
+	top: 0;
+}
+.contact_header{
+	width: 20%;
+	float: right;
+	margin-top: 30px;
+}
+.contact_header button{
+ border: 1px solid #fff;
+padding: 12px 35px;
+margin-left: 90px;
+border-radius: 20px;
+background-color: transparent;
+color: #fff;
+}
+.contact_header button:hover{
+	background-color: #f9c200;
+	border:1px solid #f9c200;
+}
+/*header_top end*/
+/*banner start*/
+.bannertitle h1{
+text-align: center;
+font-size: 48px;
+margin-top: 70px;
+font-weight: 600;
+letter-spacing: 4px;
+}
+
+/*pricing start*/
+.pricing {
+    border: 1px solid #fff;
+    background-color: #599ECD;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.icontop{
+    width: 15%;
+    margin-top: 40px;
+}
+.pricing h2{
+	font-size:36px;
+font-weight: 900;
+margin: 14px 0px;
+}
+.pricing p{
+	font-size: 30px;
+color:#F9C200;
+}
+
+.pricing h1{
+	font-weight: 900;
+font-size: 36px;
+margin: 0;
+letter-spacing: 2px;
+}
+.pricingtext img {
+    width: 69%;
+  margin: 55px 0px;
+
+}
+.pricingtext, .pricingtext2{
+margin-top: 70px;
+}
+.pricingtext a {
+	text-decoration: none;
+	color:#fff;
+}
+.pricingtext p{
+	color: #fff;
+font-size: 31px;
+line-height: 40px;
+}
+.pricingtext p:first-child {
+	margin-top: 30px;
+}
+.pricingtext2 h3{
+font-size: 27px;
+font-weight: 600;
+}
+.single21{
+	       color: #fff !important;
+    font-size: 25px !important;
+    letter-spacing: 2px;
+    margin: 28px 0px;
+}
+.single211{
+	font-size: 26px !important;
+letter-spacing: 4px;
+margin: 20px 0px;
+}
+.single213 {
+    font-size: 26px !important;
+    letter-spacing: 4px;
+    margin: 20px 0px 48px;
+}
+.singlebtn{
+	background: #F9C200;
+	color:#333333;
+text-align: center;
+width: 55%;
+margin-left: 145px;
+margin-top: 30px;
+font-size: 26px;
+font-weight: 700;
+}
+.single213{
+
+}
+.single21.pricint4 {
+   padding:25px 45px 30px 74px;
+}
+.pricingtext3{
+	margin-top: 95px;
+}
+.padding{
+	padding:8px 0px;
+}
+/*footertop start*/
+.footertop{
+	margin-top: 70px;
+	background-color: #fff;
+	padding-top: 30px;
+border-bottom: 1px solid #2A82BE;
+}
+.footericon {
+    padding: 20px 0px;
+}
+.footericon i{
+	font-size: 30px;
+color:#2A82BE;
+border:1px solid #2A82BE;
+margin-bottom: 20px;
+width: 60px;
+border-radius: 50%;
+height: 60px;
+line-height: 60px;
+text-align: center;
+}
+.footerimg img{
+
+}
+.footertoptext {
+	text-align: right;
+margin-top: 30px;
+letter-spacing: 2px;
+}
+.footertoptext h2{
+	color:#333;
+	font-size: 50px;
+	font-weight: 700;
+}
+footer{
+padding-top: 30px;
+background-color: #fff;
+}
+.footerleft{
+	float: left;
+	margin-left: 108px;
+}
+.footerleft p{
+	font-size: 20px;
+	color:#2A82BE;
+}
+.footerright{
+		float: right;
+}
+.footerright li{
+list-style: none;
+float: left;
+}
+.footerright li a{
+	text-decoration: none;
+	color:#2A82BE;
+	font-size: 20px;
+	margin-right: 20px;
+
+}
